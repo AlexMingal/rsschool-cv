@@ -2,30 +2,39 @@
 
 Junior Frontend Developer
 
+![Photo](https://avatars.githubusercontent.com/u/91932617?v=4 "Photo") 
+
+
 ## Contacts:
-**Location**: Wroclaw, Poland
+*    **Location**: Wroclaw, Poland
 
-**Phone**: + 48 732-886-336
+*    **Phone**: + 48 732-886-336
 
-**Email**: amingalev@gmail.com
+*    **Email**: amingalev@gmail.com
 
-**GitHub**: https://github.com/AlexMingal
+*    **Discord**: Alex M#5589
+
+*    **GitHub**: [github.com/AlexMingal](https://github.com/AlexMingal)
+
 
 
 ## Summary
 
-I'm 35 years old freelance sound designer working on game projects. I started my JavaScript journey a year ago to understand game designing art deeper. For now my goal is to understand all the game development processes. This is the main reason why I’ve decided to join this great RS School. 
+I'm 35 years old freelance sound designer working on game projects. I started my JavaScript journey a year ago to understand game designing art deeper. For now my goal is to understand all the game development processes. This is the main reason why I’ve decided to join this great RS School.
+
 
 ## Skills
-HTML
-CSS
-JavaScript (Junior)
-Python (Basic)
-Sound-Design
-Video editing
+<ul type="circle">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript (Junior)</li>
+    <li>Sound-Design</li>
+    <li>Video editing</li>
+</ul>
 
 ## Code Example 
 
+```
 function warnTheSheep(queue) {
   let output ='',
       queuelength = queue.length,
@@ -40,6 +49,7 @@ function warnTheSheep(queue) {
     }
   return output;
 }
+```
 
 ## Education
 ### University: 
@@ -49,9 +59,8 @@ function warnTheSheep(queue) {
         Zenva Academy
 
 ## Experience
-Freelance Sound Designer and remote Audio Engineer.
-
-I have little experience in JS and Frontend development. I have worked in the team on several small projects and currently working.
+A little experience in JavaScript programming. 
+The first project is CV for RS School:
 
 ## Languages
 ### English: B1 #### (Being a part of an international projects I have daily discussions of the projects, work emails and group calls)
