@@ -53,10 +53,11 @@ function warnTheSheep(queue) {
 
 ## Education
 ### University: 
-    Regional Institute of Innovative Business and Technologies
+Regional Institute of Innovative Business and Technologies
 ### Courses: 
-        FreeCodeCamp
-        Zenva Academy
++ FreeCodeCamp
++ Zenva Academy
++ Udemy
 
 ## Experience
 A little experience in JavaScript programming. 
