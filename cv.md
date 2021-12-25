@@ -64,6 +64,8 @@ A little experience in JavaScript programming.
 The first project is CV for RS School:
 
 ## Languages
-### English: B1 #### (Being a part of an international projects I have daily discussions of the projects, work emails and group calls)
-### Polish: B2
-### Russian: Native
+**English:** B1 (Being a part of an international projects I have daily discussions of the projects, work emails and group calls)
+
+**Polish:** B2
+
+**Russian:** Native
