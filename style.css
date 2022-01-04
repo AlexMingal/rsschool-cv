@@ -17,6 +17,7 @@ body {
 h1 {
     font-size: 30px;
     font-weight: 900;
+    text-transform: uppercase;
 }
 
 .container {
@@ -81,9 +82,14 @@ h1 {
     transition: 5ms;
 }
 
-
+#profile {
+    text-align: center;
+}
 
 #contacts, #skills, #education, #languages {
     background-color:rgb(247, 255, 251);
+}
 
+#code-example {
+    font-size: 15px;
 }
