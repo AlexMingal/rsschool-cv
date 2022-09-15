@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>cv</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                  <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section" id="photo">
+                <img src="./assets/photo.jpg" alt="Photo" width="200" height="200">
+                <h2 class="section-photo">Photo</h2>
+            </section>
+            <section class="section" id="name">
+                    <h1 class="main-title">Aleksandr Mingalev</h1>
+                    <h3>Junior FrontEnd Developer</h3>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li><b>Location</b>: Wroclaw (Poland)</li>
+                    <li><b>Phone</b>: +48 732-886-336</li>
+                    <li><b>Email</b>: amingalev@gmail.com</li>
+                    <li><b>Discord</b>: Alex M#5589</li>
+                    <li><b>GitHub</b>: <a href="https://github.com/AlexMingal">AlexMingal </a></li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>I'm 35 years old freelance sound designer working on game projects.<br>
+                    I started my JavaScript journey a year ago to understand game designing art deeper.<br>
+                    For now my goal is to understand all the game development processes.<br>
+                    This is the main reason why I’ve decided to join this great RS School.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Git</li>
+                    <li>JavaScript (Junior)</li>
+                    <li>Sound-Design</li>
+                    <li>Video editing</li>
+                </ul>
+            </section>
+            <section class="section" id="code-example">
+                <h2 class="section-title">Code example</h2>
+                    <pre>
+                        <code>
+function warnTheSheep(queue) {
+    let output ='',
+    queuelength = queue.length,
+    whereWolf = queue.indexOf("wolf"),
+    whereSheep = 0;
+
+    whereSheep  = queuelength - whereWolf -1;
+    if (whereSheep == 0) {
+        output = 'Pls go away and stop eating my sheep'; }
+    else {
+        output = "Sheep number " + whereSheep +'! You are about to be eaten!'
+    }
+    return output;
+}
+                        </code>
+                    </pre>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p><b>Regional Institute of Innovative Technologies and Business</b></p>
+            </section>
+            <section class="section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <p>A little experience in JavaScript programming.<br>
+                    <a href="https://github.com/AlexMingal/rsschool-cv/tree/rsschool-cv-html">My CV for RS School</a>
+                </p>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul>
+                    <li>FreeCodeCamp</li>
+                    <li>Zenva Academy</li>
+                    <li>Udemy</li>
+                </ul>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li><b>Russian</b>: Native</li>
+                    <li><b>English</b>: B2</li>
+                    <li><b>Polish</b>: B2</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <a href="https://github.com/AlexMingal" target="_blank">
+                <img src="./assets/github_logo.png" alt="GitHub logo" width="100" >
+            </a>
+			<div><b>2022</b></div>
+			<a href="https://rs.school/js/" target="_blank" >
+                <img src="./assets/rs_school_js.svg" width="80" height="40" alt="rs.school">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
